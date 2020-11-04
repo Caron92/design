@@ -1,20 +1,17 @@
 * {
     box-sizing: border-box;
-    border: 5em;
-    margin: 10;
+    border: 0 none;
+    margin: 0;
     padding: 0;
+    background-color: grey;
 }
-
-
-.me-index {
-    background-color: yellow;
+img[src*="#me"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    border-radius: 10em;
+    width: 70%;
+    border-radius: 15em;
 }
-
 
 *:focus {
     outline: 0;
@@ -82,7 +79,7 @@ body {
 /*** BASIC LAYOUT: HEADER ***/
 
 .header {
-    background: #fff;
+    background: grey;
 }
 
 .title, .logo {
@@ -171,7 +168,7 @@ body {
 /*** BASIC LAYOUT: FOOTER ***/
 
 .footer {
-    background: #707070;
+    background: grey;
     color: #c0c0c0;
 }
 
@@ -250,7 +247,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: monospace;
     font-size: 1rem;
     line-height: 1.6;
     font-variant-ligatures: common-ligatures;
