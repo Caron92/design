@@ -33,3 +33,16 @@ Mitt TIL för detta kursmoment blir just markdown, jag trodde inte att det gick 
 tycker att det verkar behagligt. Github var också något som var nytt för mig, jag visste sedan innan vad det var för
 något men jag har själv aldrig använt mig av det. Tycker det är coolt att man kan ladda upp och dela sin kod samt
 se hur andra personer gjort.
+
+<div class="sidemenu">
+<a href="kmom01"><h3>kmom01</h3></a>
+<a href="kmom02"><h3>kmom02</h3></a>
+<a href="kmom03"><h3>kmom03</h3></a>
+<a href="kmom04"><h3>kmom04</h3></a>
+<a href="kmom05"><h3>kmom05</h3></a>
+<a href="kmom06"><h3>kmom06</h3></a>
+<a href="kmom10"><h3>kmom10</h3></a>
+</div>
+<div class="sideContent">
+
+</div>

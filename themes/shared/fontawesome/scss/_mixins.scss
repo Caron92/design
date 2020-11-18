@@ -12,12 +12,12 @@
 }
 
 @mixin fa-icon-rotate($degrees, $rotation) {
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})';
+    // -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})'; #TOG BORT FÖR VALIDERINGN
     transform: rotate($degrees);
 }
 
 @mixin fa-icon-flip($horiz, $vert, $rotation) {
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)';
+    // -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)'; #TOG BORT FÖR VALIDERINGN
     transform: scale($horiz, $vert);
 }
 

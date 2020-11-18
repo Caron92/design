@@ -1,9 +1,9 @@
 ---
-Title: kmom02
-Description: My report for Kmom02.
+Title: kmom06
+Description: My report for Kmom06.
 ---
 
-Kmom02
+Kmom06
 ==========================
 Jag tycker det verkar roligt att jobba med SASS, kul med en kurs som enbart fokuserar på stylen.
 Jag satt och jobbade lite förra veckan med kursmoment 02 och följde anvisningarna i övningen som fanns
