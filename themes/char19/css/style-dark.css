@@ -6848,3 +6848,101 @@ h6 {
   font-family: "Open Sans", sans-serif;
   text-decoration: underline;
 }
+
+* {
+  background-color: #151513;
+}
+
+.main {
+  background-color: #151513;
+}
+
+.header {
+  background: #151513;
+  color: #151513;
+}
+
+.footer {
+  background: #151513;
+}
+
+.footer a {
+  background-color: #151513;
+}
+
+.footer a:hover {
+  color: #151513;
+}
+
+.footer p {
+  background-color: #151513;
+}
+
+.footer .social {
+  background-color: #151513;
+}
+
+.me-index {
+  background-color: #151513;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 10em;
+}
+
+.sidemenu {
+  position: fixed;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #151513;
+  padding: 10px 10px 10px 36px;
+  height: 100%;
+  width: 330px;
+  overflow: wrap;
+  top: 30%;
+  left: 8%;
+}
+
+.kmom-box {
+  grid-column: span 1;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+}
+
+a:hover {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+  color: white;
+}
+
+hr {
+  border: 0.15em solid white;
+  border-radius: 0.3em;
+  background: white;
+}
+
+.title * {
+  margin: 0;
+  color: white;
+}
+
+.title p {
+  font-style: italic;
+  color: white;
+}

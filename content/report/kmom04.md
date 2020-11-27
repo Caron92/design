@@ -5,28 +5,24 @@ Description: My report for Kmom04.
 
 Kmom04
 ==========================
-Jag tycker det verkar roligt att jobba med SASS, kul med en kurs som enbart fokuserar på stylen.
-Jag satt och jobbade lite förra veckan med kursmoment 02 och följde anvisningarna i övningen som fanns
-men då krånglade det bara för mig. Jag fick massa felmeddelanden när jag körde npm run style och den klagade
-på min package.json. Men jag märkte efter Nicklas föreläsning i tisdags att mitt innehåll i package.json
-hade lagt sig helt annorlunda efter installationen jag gjorde, tänkte att det inte skulle spela någon roll
-men efter att jag testade och möblera om i koden så fungerade det.
-Jag är inte bekant med Node, npm eller npm scripts sedan tidigare, detta är första gången jag testar på det.
-Men vad jag förstår det som så är det en miljö för att köra javascript program. Nu är jag rätt färsk på detta
-men det verkar för mig som att det är smidigt att ladda ner från pakethanteraren och sedan använda, men just
-nu är min kännsla att vi ändå måste skriva css-filen och sedan importera den till scss-filen som Nicklas gjorde på föreläsningen. Jag läste i materialet att css inte stödjer funktioner och matematiska operationer så jag tror det
-kommer klarna framöver.
-Kompilationen gick bra till slut men som jag skrev innan så hade jag lite krångel till en början. Det var lite
-nervöst till en början när css-filen försvann men jag sparade undan den för att sedan återanvända den, och mina funderingar
-är väl att jag inte riktigt kommit till insikt varför vi gör som vi gör eftersom det inte är några ändringar i själva stylen
-på vår hemsidan jämfört när vi bara använde oss av css-filen.
-När jag började göra mitt tema så utgick jag från filerna vi hade från början och byggde på därifrån, min plan var att
-göra en mjuk men ändå lite rå hemsida. Färgen grå är en favorit och som jag skrev i förra redovisningen så tycker jag
-färgerna blir väldigt snygga tillsammans. Jag lade på en border-radius på min bild på första sidan för att jag tyckte
-att den smälte in mer på sidan. Jag vill i fortsättningen hålla sidan ganska ren, ungefär som den är fast med lite mer
-tekniska bitar. Jag har själv inte delat upp koden så mycket mer än vad mina markdown-filer är, jag har hållt mig mycket åt
-hur vi gör på föreläsningarna. Detta skrev jag också om i de förra kurserna att jag är lite feg med att just exprimentera just för att tappa bort mig.
-Mitt TIL för detta kursmoment blir just att jobba i scss-filer och bekantskapen med node och npm-kommandon.
+
+
+Det var faktiskt rätt skönt att ge sig på en skrivuppgift, det har de inte vart så mycket av i förgående kurser.
+Jag valde tre företag som intresserar mig, först och främst Liverpool som jag håller varmt om hjärtat sedan valde jag att skriva
+om SAS på grund av mitt stora intresse för resor och sist men inte minst Inhalation Sciences som inriktar sig på lungforskning.
+Det var svårare än jag trodde att analysera, speciellt tyckte jag att det var svårt att se vilket färgschema de använde sig av.
+
+Jag använde mig av ett monokromatiskt färgschema till min egen sida, jag valde en orange-aktig färg som bakgrund tillsammans med
+rubriker i en nyas som går mer åt det bruna hållet. Runt min profilbild och borders på mina kmom använde jag en mer "riktig" orange
+färg, Ville att temat skulle gå lite mer mot det höstiga.
+Medvetet använde jag mig inte av någon accentfärg men jag har mycket blått i min flash-bild som är en accentfärg till orange.
+Mitt Dark-theme löste jag genom att ta en kopia på mitt "ljusa" tema och sedan ändra scss-filen till en mörk bakgrund samt ändrade
+rubrikfärger och borders till vitt. Min brödtext behöll jag i samma gråa färg som jag hade innan för att jag tyckte det fortfarande
+var läsbart och snyggt.
+Mitt TIL för detta kmom är att få till ett Dark-theme vilket jag tyckte var väldigt kul, lärde mig hur vi kunde växla mellan sidorna
+för att enkelt kunna aktivera det. Sedan lärde jag mig också lite om flash-bilder även om detta inte hade så mycket med själva
+kursmomentet att göra, men jag hade sedan tidigare inte riktig fått ordning på url vilket resulterade i att mina bilder inte syntes
+i underfiler så som kursmomenten och analyssidorna.
 
 <div class="sidemenu">
 <a href="kmom01"><h3>kmom01</h3></a>

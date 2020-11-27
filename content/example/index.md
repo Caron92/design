@@ -11,7 +11,7 @@ This is `theme.md` in Pico's content directory. This page doesn't show up in the
 
 Text
 ----
-
+<!--
 **Lorem ipsum dolor sit amet,** consectetur adipisici elit, *sed eiusmod tempor* incidunt ut labore et dolore magna aliqua.[^1] ~~Ut enim ad minim veniam,~~ quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.[^2] [Quis aute iure reprehenderit][Link] in voluptate velit esse cillum dolore eu fugiat nulla pariatur. `Excepteur` sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 [![Pico Logo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+PHBhdGggZD0ibTI5OC40IDE5NC43cTAtMTQuMTUtLjgtMzEuMmwtLjg1LTE0LjI1aC01MS4wNXY4OS45NWw4IDEuMXE5LjYgMS4wNSAxNy42IDEuMDUgNy45NSAwIDE3LjUtMS4wNSA0LjgtLjU1IDcuOTUtMS4xIDEuNjUtMjIuMiAxLjY1LTQ0LjVtLTY5Ljc1LTQ1LjhoLTQ5LjN2MTgyLjQ1bDcuNy44NXE5LjMuOCAxNyAuOCAxMi4zIDAgMjQuNi0xLjY1eiIgZmlsbD0iIzJlYWU5YiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM4Ljg1IC00MC45NSkiLz48L3N2Zz4K)](%base_url% "Pico Logo") {.image .small .float-right}
@@ -193,4 +193,4 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 [Link]: %base_url% "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat."
 
 [^1]: Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-[^2]: Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[^2]: Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->

@@ -1,15 +1,7 @@
-@import '../../node_modules/normalize.css/normalize';
-@import '../../shared/fontawesome/scss/fontawesome';
-$fa-font-path: '../../shared/fontawesome/webfonts';
-@import '../../shared/fontawesome/scss/brands';
-@import '../../shared/fontawesome/scss/solid';
-@import '../../shared/fontawesome/scss/regular';
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital@1&display=swap');
+@import 'typography';
+@import 'variables';
 @import 'old';
 @import 'report';
-
-
 
 * {
     font-family: 'roboto', sans-serif;
@@ -23,4 +15,258 @@ h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    background-color: $color-brown;
+}
+
+// img[src*='#me'] {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 70%;
+//     border-radius: 15em;
+// }
+
+*:focus {
+    outline: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+/*** BASIC LAYOUT ***/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    background: $color-brown;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+    background: $color-brown;
+    color: $color-brown;
+}
+
+.main {
+    padding: 5em 0 4em;
+    background: $color-brown;
+}
+
+.container {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+.widescreen .container {
+    max-width: 72em;
+}
+
+/* very ugly overflow fix, avoid this whenever possible! */
+
+.main .container {
+    overflow-x: auto;
+}
+
+/*** BASIC LAYOUT: HEADER ***/
+
+.header {
+    background: $color-brown;
+    color: $color-brown;
+}
+
+.title,
+.logo {
+    float: left;
+    padding: 3em 3em 3em 0;
+}
+
+.title * {
+    margin: 0;
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.logo {
+    height: 20em;
+}
+
+.logo * {
+    display: block;
+    height: 100%;
+}
+
+.logo img {
+    min-width: 10em;
+    // border-radius: 0.5em;
+    border: 1px solid $color-orange;
+}
+
+.logo+.title h1 {
+    margin: 0.8rem 0;
+}
+
+.logo+.title.tagline h1 {
+    margin: 0;
+}
+
+.nav {
+    padding: 3em 0;
+    text-align: right;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nav a,
+.nav-toggle {
+    color: #333;
+}
+
+.nav
+.active a,
+.nav a:hover,
+.nav-toggle:hover {
+    color: #3b440d;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+    color: #3b440d;
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+/* IE8 + IE9 clearfix */
+
+.header>.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.flash-img {
+    position: relative;
+    top: -10px;
+}
+
+/*** BASIC LAYOUT: FOOTER ***/
+
+.footer {
+    background: $color-brown;
+    color: $color-brown;
+}
+
+.footer a {
+    background-color: $color-brown;
+
+}
+
+/*** SIDECONTROLLER ***/
+.sidemenu {
+    position: fixed;
+    color: $color-black;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: $color-brown;
+    padding: 10px 10px 10px 36px;
+    height: 50%;
+    width: 330px;
+    overflow: wrap;
+    top: 30%;
+    left: 8%;
+    border: 1px solid $color-orange;
+    border-radius: 1em;
+}
+
+
+.kmom-box {
+    grid-column: span 1;
+    border: 1px solid $color-orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+a:hover {
+    color: $color-headline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    color: $color-headline;
+}
+
+hr {
+    border: 0.15em solid $color-white;
+    border-radius: 0.3em;
+    background: $color-white;
+}
+
+.title * {
+    margin: 0;
+    color: $color-headline;
+}
+
+.title p {
+    font-style: italic;
+    color: $color-headline;
 }
