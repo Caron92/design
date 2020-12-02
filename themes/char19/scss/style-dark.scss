@@ -2,6 +2,8 @@
 @import 'variables-dark';
 @import 'old';
 @import 'report';
+@import 'gallery';
+
 
 
 
@@ -68,11 +70,11 @@ h6 {
     font-weight: 600;
     background-color: $color-black;
     padding: 10px 10px 10px 36px;
-    height: 100%;
-    width: 330px;
+    height: 50%;
+    width: 200px;
     overflow: wrap;
     top: 30%;
-    left: 8%;
+    left: 0%;
 }
 
 .kmom-box {
