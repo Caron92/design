@@ -102,7 +102,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     margin-bottom: 0.6em;
     font-weight: bold;
     color: $color-white;
@@ -122,4 +123,26 @@ hr {
 .title p {
     font-style: italic;
     color: $color-white;
+}
+
+.nav a,
+.nav-toggle {
+    color: $color-white;
+}
+
+.nav
+.active a,
+.nav a:hover,
+.nav-toggle:hover {
+    color: $color-white;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+    color: $color-white;
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
 }

@@ -29,14 +29,14 @@ hur vi gör på föreläsningarna. Detta skrev jag också om i de förra kursern
 Mitt TIL för detta kursmoment blir just att jobba i scss-filer och bekantskapen med node och npm-kommandon.
 
 <div class="sidemenu">
-<a href="kmom01"><h3>kmom01</h3></a>
-<a href="kmom02"><h3>kmom02</h3></a>
-<a href="kmom03"><h3>kmom03</h3></a>
-<a href="kmom04"><h3>kmom04</h3></a>
-<a href="kmom05"><h3>kmom05</h3></a>
-<a href="kmom06"><h3>kmom06</h3></a>
-<a href="kmom10"><h3>kmom10</h3></a>
+<a href="kmom01"><h2>kmom01</h2></a>
+<a href="kmom02"><h2>kmom02</h2></a>
+<a href="kmom03"><h2>kmom03</h2></a>
+<a href="kmom04"><h2>kmom04</h2></a>
+<a href="kmom05"><h2>kmom05</h2></a>
+<a href="kmom06"><h2>kmom06</h2></a>
+<a href="kmom10"><h2>kmom10</h2></a>
 </div>
-<div id="sideContent">
+<div class="sideContent">
 
 </div>

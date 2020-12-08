@@ -9,8 +9,7 @@ Theme Styling Test
 
 This is `theme.md` in Pico's content directory. This page doesn't show up in the website's menu due to `hidden: true` in the page's YAML header. The purpose of this page is to aid theme development - below you'll find basically every format that is possible with Markdown. If you develop a theme, you should make sure that all examples below show decent.
 
-Text
-----
+
 <!--
 **Lorem ipsum dolor sit amet,** consectetur adipisici elit, *sed eiusmod tempor* incidunt ut labore et dolore magna aliqua.[^1] ~~Ut enim ad minim veniam,~~ quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.[^2] [Quis aute iure reprehenderit][Link] in voluptate velit esse cillum dolore eu fugiat nulla pariatur. `Excepteur` sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

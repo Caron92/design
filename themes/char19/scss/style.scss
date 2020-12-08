@@ -16,6 +16,7 @@ h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
+    color: $color-blue;
 }
 
 * {
@@ -123,6 +124,7 @@ body {
 
 .title p {
     font-style: italic;
+    color: $color-black;
 }
 
 .logo {
@@ -168,19 +170,19 @@ body {
 
 .nav a,
 .nav-toggle {
-    color: #333;
+    color: $color-blue;
 }
 
 .nav
 .active a,
 .nav a:hover,
 .nav-toggle:hover {
-    color: #3b440d;
+    color: $color-grey;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-    color: #3b440d;
+    color: $color-grey;
     text-decoration: underline;
 }
 
@@ -242,7 +244,7 @@ body {
 }
 
 a:hover {
-    color: $color-headline;
+    color: $color-grey;
 }
 
 h1,
@@ -250,10 +252,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     margin-bottom: 0.6em;
     font-weight: bold;
-    color: $color-headline;
+    color: $color-blue;
 }
 
 hr {
@@ -264,10 +267,10 @@ hr {
 
 .title * {
     margin: 0;
-    color: $color-headline;
+    color: $color-blue;
 }
 
 .title p {
     font-style: italic;
-    color: $color-headline;
+    color: $color-blue;
 }
