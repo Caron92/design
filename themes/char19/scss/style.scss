@@ -177,12 +177,12 @@ body {
 .active a,
 .nav a:hover,
 .nav-toggle:hover {
-    color: $color-grey;
+    color: $color-black;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-    color: $color-grey;
+    color: $color-white;
     text-decoration: underline;
 }
 
@@ -224,12 +224,16 @@ body {
     background-color: $color-brown;
     padding: 10px 10px 10px 36px;
     height: 50%;
-    width: 200px;
+    width: 180px;
     overflow: wrap;
     top: 30%;
     left: 0%;
     border: 1px solid $color-orange;
     border-radius: 1em;
+}
+
+.sidemenu a {
+    width: 100px;
 }
 
 
@@ -273,4 +277,10 @@ hr {
 .title p {
     font-style: italic;
     color: $color-blue;
+}
+
+@media (max-width: 71em) {
+    .sidemenu {
+        visibility: hidden;
+    }
 }
